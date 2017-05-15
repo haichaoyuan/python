@@ -1,5 +1,6 @@
 import xlrd
 import xlwt
+from os import path
 import jieba  # 用来给文档内容分词
 import numpy  # 词频统计时会调用numpy的统计函数
 import codecs  # 用于读取文件
@@ -22,7 +23,7 @@ def generateStopWords(filename = ''):
 
 def processChinese(text):
     seg_generator = jieba.cut(text) # 使用结巴分词
-    seg_list = [i for i in seg_generator if i not in STOPWORDS]
+    seg_list = [i for i in seg_generator if i not in stopwords]
     seg_list = [i for i in seg_list if i != u' ']
     seg_str = r' '.join(seg_list)
     return seg_str
