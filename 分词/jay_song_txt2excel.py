@@ -6,28 +6,6 @@ import numpy  # 词频统计时会调用numpy的统计函数
 import codecs  # 用于读取文件
 import pandas  # 用于基本数据处理以及导出excel
 
-stopwords = {}
-
-def generateStopWords(filename = ''):
-    global stopwords
-    stopwords = set([x.strip() for x in open(path.join(path.dirname(__file__), filename)).read().split('\n')])
-    # f = open(filename, 'r', encoding='utf-8')
-    # line = f.readline().strip()
-    #
-    # while line:
-    #     stopwords.setdefault(line, 0)
-    #     stopwords[line] = 1
-    #     line = f.readline().strip()
-    #
-    # f.close()
-
-def processChinese(text):
-    seg_generator = jieba.cut(text) # 使用结巴分词
-    seg_list = [i for i in seg_generator if i not in stopwords]
-    seg_list = [i for i in seg_list if i != u' ']
-    seg_str = r' '.join(seg_list)
-    return seg_str
-
 # 1. codecs自然语言编码模块，用于读取文件，区别去open,可忽略格式，utf-8,unicode
 #  区别open方法，完成input文件(gbk, utf-8...)   ----decode----->   unicode  -------encode------> output文件(gbk, utf-8...)
 file = codecs.open("res/周杰伦所有歌词.txt", 'r', 'utf-8')

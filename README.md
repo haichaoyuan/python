@@ -11,6 +11,3 @@
 5. wordcloud读取词组文字和词组频率
 6. matplotlib.pyplot出现窗口显示生成词云
 7. 词云存图片
-
-## getSomeYourNamePicFromTieba 贴吧下载君名图片项目
-1. 从百度贴吧下载几张君名的图片，https://tieba.baidu.com/p/4780093697
