@@ -11,5 +11,12 @@
         </value>
       </option>
     </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="廖雪峰的Python教程.IO编程.WSGI_server.WSGI_hello" />
+        </list>
+      </option>
+    </inspection_tool>
   </profile>
 </component>
