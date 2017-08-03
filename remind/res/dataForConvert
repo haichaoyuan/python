@@ -1,0 +1,104 @@
+
+ 06-15 16:11:43.955 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:71): --- 耗时: 50 毫秒  ---确定各章节题目数耗时----TaskZuotiAlgorithm中 TaskZuotiAlgorithm.selectTopic(L:441)
+06-15 16:11:43.955 27164-27515/com.zhitongyun.sxststudent V/DBHelper.getDBInstance(L:66): databasepath : /storage/sdcard0/xuehai/3563/databases_sqlcrypt/com.zhitongyun.sxststudent/32686
+06-15 16:11:43.955 27164-27515/com.zhitongyun.sxststudent V/DbDevelopmentKit.getInstance(L:85): 找到队列里面DbDevelopmentKit对象，不用重新创建，当前dao.database:net.sqlcipher.database.SQLiteDatabase@45f12638
+06-15 16:11:45.915 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：1
+06-15 16:11:45.915 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1947 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:11:45.915 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:11:49.470 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：132
+06-15 16:11:49.470 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1885 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:11:49.490 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 19 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:11:50.815 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：1
+06-15 16:11:50.815 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1322 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:11:50.815 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:11:53.155 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：1
+06-15 16:11:53.155 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1181 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:11:53.155 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:11:54.975 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：1
+06-15 16:11:54.975 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1815 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:11:54.975 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:11:58.365 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：165
+06-15 16:11:58.370 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1728 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:11:58.385 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 16 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:11:58.420 27164-27166/com.zhitongyun.sxststudent D/dalvikvm: GC_CONCURRENT freed 1923K, 82% free 14795K/78751K, paused 7ms+5ms, total 36ms
+06-15 16:11:59.870 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：1
+06-15 16:11:59.870 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1479 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:11:59.870 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:02.365 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：93
+06-15 16:12:02.365 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1246 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:02.370 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 5 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:03.550 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：2
+06-15 16:12:03.550 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1176 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:03.555 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 3 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:06.095 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：34
+06-15 16:12:06.095 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1251 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:06.100 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:07.970 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：2
+06-15 16:12:07.970 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1868 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:07.975 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:11.530 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：202
+06-15 16:12:11.530 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1781 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:11.535 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 5 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:13.340 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：1
+06-15 16:12:13.340 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1800 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:13.340 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:17.130 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：156
+06-15 16:12:17.130 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1836 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:17.135 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 3 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:18.455 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：1
+06-15 16:12:18.460 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1324 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:18.460 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:21.040 27164-27515/com.zhitongyun.sxststudent I/TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:547): 个数：66
+06-15 16:12:21.040 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1346 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:548)
+06-15 16:12:21.045 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TTopicHelper中 TTopicHelper.queryRandomProblemHoidListByLevelLimit(L:560)
+06-15 16:12:21.050 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:71): --- 耗时: 37094 毫秒  ---全章完成的耗时----TaskZuotiAlgorithm中 TaskZuotiAlgorithm.selectTopic(L:474)
+06-15 16:12:21.065 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：1
+06-15 16:12:21.065 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 16 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.070 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.085 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：132
+06-15 16:12:21.085 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 9 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.090 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 5 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.095 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：1
+06-15 16:12:21.095 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 6 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.100 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.105 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：1
+06-15 16:12:21.110 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 4 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.110 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.120 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：1
+06-15 16:12:21.120 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 9 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.125 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.145 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：165
+06-15 16:12:21.150 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 10 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.155 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 8 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.165 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：1
+06-15 16:12:21.165 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 7 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.165 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.180 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：93
+06-15 16:12:21.180 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 6 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.185 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.190 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：2
+06-15 16:12:21.190 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 6 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.195 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.205 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：34
+06-15 16:12:21.205 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 5 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.210 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.220 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：2
+06-15 16:12:21.225 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 10 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.225 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.250 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：202
+06-15 16:12:21.250 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 10 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.255 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 5 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.275 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：1
+06-15 16:12:21.275 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 15 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.275 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.305 27164-27166/com.zhitongyun.sxststudent D/dalvikvm: GC_CONCURRENT freed 1820K, 81% free 14971K/78751K, paused 4ms+5ms, total 36ms
+06-15 16:12:21.315 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：156
+06-15 16:12:21.315 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 12 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.320 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 4 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.325 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：1
+06-15 16:12:21.325 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 6 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.325 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 1 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.340 27164-27515/com.zhitongyun.sxststudent I/TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:177): 个数：66
+06-15 16:12:21.340 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 5 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:178)
+06-15 16:12:21.345 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:47): --- 耗时: 2 毫秒  ---TFastTopicHelper中 TFastTopicHelper.queryRandomProblemHoidListByLevelLimit(L:190)
+06-15 16:12:21.345 27164-27515/com.zhitongyun.sxststudent V/LogUtils.showTime(L:71): --- 耗时: 298 毫秒  ---急速优化后全章完成的耗时----TaskZuotiAlgorithm中 TaskZuotiAlgorithm.selectTopic(L:501)

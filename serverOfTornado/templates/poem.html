@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poem Maker Pro</title>
+</head>
+<body>
+    <h1>Your poem</h1>
+    <p>大家好，我是 {{name}} ，我现在{{age}}岁啦！</p>
+    <p>我来自{{city}} ，喜欢{{age}}，很高兴认识大家！</p>
+
+    {% for book in books%}
+    <li>{{book}}</li>
+    {% end %}
+</body>
+</html>
