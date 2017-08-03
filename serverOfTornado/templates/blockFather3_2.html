@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel = "stylesheet" href="{{ static_url('css/style.css') }}"/>
+</head>
+<body>
+    <div id = "container">
+        <header>
+            {% block header %}<h1>Burt's Books</h1>{% end %}
+        </header>
+        <div id = "main">
+            <div id="content">
+                {% block body %}{% end %}
+            </div>
+        </div>
+        <footer>
+            {% block fotter %}
+            <p>
+                For more information about our selection , hours or events, please email us at contact@burtsbook.com
+            </p>
+            {% end %}
+        </footer>
+    </div>
+    <script src = "{{ static_url('js/scripts.js')}}"></script>
+</body>
+</html>
