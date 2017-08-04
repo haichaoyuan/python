@@ -1,0 +1,23 @@
+{% extends "blockFather3_2.html" %}
+
+{% block header %}
+<h1>{{ header_text }}</h1>
+{% end %}
+
+{% block header %}
+<div id ="hello">
+    <p>Welcome to Burt's Books!</p>
+    <p>...</p>
+    {% module hello() %}
+    <input type="button" name="Submit" value="添加新书" class="btn" onclick="location.href=('addNewBook.html')" />
+</div>
+{% end %}
+
+{% block body %}
+<h2>Recomended Reading</h2>
+    <ul class="subject-list">
+    {% for book in books %}
+        {% module Book(book) %}
+    {% end %}
+    </ul>
+{% end %}

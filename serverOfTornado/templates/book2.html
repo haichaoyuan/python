@@ -1,0 +1,21 @@
+<li class="subject-item">
+    <div class="pic">
+        <a class="nbg" href="https://baidu.com"
+           onclick="moreurl(this,{i:'0',query:'',subject_id:'2230208',from:'book_subject_search'})">
+            <img class="" src="{{ book['image'] }}" width="90">
+        </a>
+    </div>
+    <div class="info">
+        <h2 class="">
+            <a href="https://book.douban.com/subject/2230208/" title="{{ book['title'] }}"
+               onclick="moreurl(this,{i:'0',query:'',subject_id:'2230208',from:'book_subject_search'})">
+                {{ book["title"] }}
+            </a>
+        </h2>
+        <div class="pub">
+            {{ book['author'] }}
+        </div>
+
+        <p>{{ book['description'] }}</p>
+    </div>
+</li>
