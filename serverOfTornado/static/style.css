@@ -1,0 +1,57 @@
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    width: 600px;
+    margin: 0 auto;
+}
+.replaced:hover { color: #00f; }
+
+/* for 4_3 */
+
+div{
+    margin: 0
+    padding: 0
+}
+.subject-item{
+    overflow: hidden;
+    zoom: 1;
+    border-top: 1px dashed #ddd;
+    padding: 20px 0 10px;
+}
+.subject-list {
+    margin-top: 5px;
+}
+.subject-item .pic, .site-item .pic {
+    float: left;
+    margin-right: 20px;
+}
+.subject-item .info, .site-item .info {
+    overflow: hidden;
+    zoom: 1;
+    color: #666;
+}
+.subject-item .info h2, .site-item .info h2 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.subject-item .pub {
+    margin: 6px 0 8px;
+}
+.clearfix {
+    display: block;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.subject-item .info .ft {
+    margin-top: 10px;
+    position: relative;
+    min-height: 19px;
+    _height: 19px;
+}
+a:link, a:visited, a:focus {
+    color: #3377aa;
+}
