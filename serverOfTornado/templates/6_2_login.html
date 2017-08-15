@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PleaseLogIn</title>
+</head>
+<body>
+    <form action = "/login" method="POST">
+        <!-- 跨站攻击保护-->
+        {% raw xsrf_form_html() %}
+        Username: <input type="text" name="username"/>
+        <input type="submit" value="Log In">
+    </form>
+</body>
+</html>
