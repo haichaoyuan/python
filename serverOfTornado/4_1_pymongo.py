@@ -16,9 +16,9 @@ widgets = db.widgets
 # print(widgets.find_one({"name":"flibnip"}))
 
 #4. 查询所有,
-cursor = widgets.find()
-for result in cursor:
-    print(result)
+# cursor = widgets.find()
+# for result in cursor:
+#     print(result)
 
 
 # 5. 查询，更改，再保存
@@ -32,12 +32,12 @@ for result in cursor:
 # widgets.remove({"name":"flibnip"})
 
 # 7. 读取数据，删除id，序列化
-flip = widgets.find_one({"foo":"bar"})
-print(flip)
-del flip["_id"]
-import json
-print(json.dumps(flip))
-
-cursor = widgets.find()
-for result in cursor:
-    print(result)
+# flip = widgets.find_one({"foo":"bar"})
+# print(flip)
+# del flip["_id"]
+# import json
+# print(json.dumps(flip))
+#
+# cursor = widgets.find()
+# for result in cursor:
+#     print(result)
