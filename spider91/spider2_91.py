@@ -118,7 +118,7 @@ if __name__=='__main__':
     #     getPage(str(i*35))
     page = 0
     filePath = 'res/91p20/page_%s.txt' % page
-    # html2Txt(page, filePath)
+    html2Txt(page, filePath)
 
-    txt2ParserWithBeautifulSoup(filePath)
+    # txt2ParserWithBeautifulSoup(filePath)
     # store2DB(0)
