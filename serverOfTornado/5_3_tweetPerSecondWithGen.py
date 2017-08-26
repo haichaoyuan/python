@@ -28,7 +28,7 @@ class IndexHandler(tornado.web.RequestHandler):
                    <div style="font-size: 144px">%.02f</div>
                    <div style="font-size: 24px">tweets per second</div>
                    <div style="font-size: 24px">%s</div>
-               </div>""" % ('abc', seconds_diff, body))
+               </div>""" % ('abcd', seconds_diff, body))
         # 异步回调完成后的finish操作
         self.finish()
 
@@ -50,7 +50,7 @@ class IndexHandler(tornado.web.RequestHandler):
                            <div style="font-size: 144px">%.02f</div>
                            <div style="font-size: 24px">tweets per second</div>
                            <div style="font-size: 24px">%s</div>
-                       </div>""" % ('abc', seconds_diff, body))
+                       </div>""" % ('abcd', seconds_diff, body))
         # 异步回调完成后的finish操作
         self.finish()
 

@@ -33,7 +33,7 @@ print('3. defaultdict')
 from collections import defaultdict
 dd = defaultdict(lambda :'N/A')
 # key 存在
-dd['key1'] = 'abc'
+dd['key1'] = 'abcd'
 print(dd['key1'])
 # 可以不存在，返回默认
 print(dd['key2'])

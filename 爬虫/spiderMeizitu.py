@@ -1,21 +1,18 @@
-# 啊哈哈 91 我来爬你了
+# 啊哈哈 妹子图我来爬你了
 # encoding=utf8
+import codecs
 import multiprocessing
+import os
 import random
+import sqlite3
 import threading
+import time
 
 import requests
 from bs4 import BeautifulSoup
-import re, time
-import os, json
-import base64
-# from Crypto.Cipher import AES
-from pprint import pprint
-import sqlite3
-import codecs
-import pymongo
 
 BASE_URL = 'https://book.douban.com/tag/%E7%BB%8F%E5%85%B8?start=%s&type=T'
+## 配置一些USER_AGENT, HEADER头进行模拟客户端抓取数据
 UserAgent_List = [
     "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1",
     "Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
@@ -36,8 +33,6 @@ UserAgent_List = [
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24",
     "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24"
 ]
-
-
 Default_Header = {
     # 'Host': 'www.mmjpg.com',
     'Connection': 'keep-alive',
@@ -48,7 +43,10 @@ Default_Header = {
     'Accept-Encoding': 'gzip',
     'Accept-Language': 'zh-CN,zh;q=0.8'
 }
-
+# 抓取数据
+MAX_SIZE = 151 #最大页数
+CUR_PAGE = 50 #当前页
+NEXT_GOAL_PAGE = 60 #下个目标页
 
 class SpiderMeizitu:
     def __init__(self) -> None:
@@ -59,6 +57,11 @@ class SpiderMeizitu:
         self.values = []
 
     def getPageForMain(self, url):# 获取网页数据
+        '''
+        获取网页数据
+        :param url: 
+        :return: 
+        '''
         print("======================================")
         print("===========step one getPage============")
         print("======================================")
@@ -98,10 +101,10 @@ class SpiderMeizitu:
     def spiderByThread(self):# 多线程取数据
         # 1 - 151
         threads = []
-        maxSize = 151
-        i = 50
+        maxSize = MAX_SIZE
+        i = CUR_PAGE
         # while(i <= 151):
-        while(i <= 50):
+        while(i <= NEXT_GOAL_PAGE):
             if len(threads) == 0: # 线程处理完，再起线程
                 print('[spider]线程处理完，再起线程')
                 for v in range( self.PAGE_SIZE):
@@ -218,7 +221,6 @@ class SpiderMeizitu:
                 p = multiprocessing.Process(target= self.spiderByThread())
             else:
                 p = multiprocessing.Process(target=self.downloadImgsByThread)
-                continue
             p.start()# 启动进程
             process.append(p)
         for p in process:
@@ -228,7 +230,7 @@ class SpiderMeizitu:
         # 连接到SQLite数据库
         # 数据库文件是test.db
         # 如果文件不存在，会自动在当前目录创建:
-        conn = sqlite3.connect('res/douban/meitu.db')
+        conn = sqlite3.connect('res/douban/meizitu.db')
         # 创建一个Cursor:
         cursor = conn.cursor()
         cursor.execute('select * from meitu where state != %d limit %d '% (self.STATUS_SUCCESS,  self.PAGE_SIZE))
@@ -296,7 +298,7 @@ class SpiderMeizitu:
     STATUS_FAILURE = 1
     STATUS_SUCCESS = 2
     def changetMeituState(self, status, id):
-        self.conn = sqlite3.connect('res/douban/meitu.db')
+        self.conn = sqlite3.connect('res/douban/meizitu.db')
         # 创建一个Cursor:
         self.cursor = self.conn.cursor()
         self.cursor.execute('update meitu set state = %d where id = %d'%(status, id))
@@ -307,7 +309,7 @@ class SpiderMeizitu:
         self.conn.close()
 
     def saveDbFailure(self, url):#保存失败的url
-        self.conn = sqlite3.connect('res/douban/meitu.db')
+        self.conn = sqlite3.connect('res/douban/meizitu.db')
         # 创建一个Cursor:
         self.cursor = self.conn.cursor()
         # 执行一条SQL语句，创建user表: 91电影
@@ -325,7 +327,7 @@ class SpiderMeizitu:
     def store2DB(self, imgList): #保存到sqlite
         # 连接到SQLite数据库
         # 如果文件不存在，会自动在当前目录创建:
-        self.conn = sqlite3.connect('res/douban/meitu.db')
+        self.conn = sqlite3.connect('res/douban/meizitu.db')
         # 创建一个Cursor:
         self.cursor = self.conn.cursor()
         # 执行一条SQL语句，创建user表: 91电影
@@ -355,7 +357,7 @@ class SpiderMeizitu:
     def store2DBForMain(self, imgList): #保存到sqlite
         # 连接到SQLite数据库
         # 如果文件不存在，会自动在当前目录创建:
-        self.conn = sqlite3.connect('res/douban/meitu.db')
+        self.conn = sqlite3.connect('res/douban/meizitu.db')
         # 创建一个Cursor:
         self.cursor = self.conn.cursor()
         # 执行一条SQL语句，创建user表: 91电影
@@ -389,7 +391,6 @@ class SpiderMeizitu:
 # the enter load
 if __name__ == '__main__':
     page = 1
-
     spiderMeizitu = SpiderMeizitu()
     spiderMeizitu.mutiProcessDownloadImgs()
     # spiderMeizitu.downloadImgsIml()
