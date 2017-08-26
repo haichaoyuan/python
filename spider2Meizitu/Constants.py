@@ -42,9 +42,9 @@ Default_Header = {
 def getDefaultHeader():
     Default_Header['User-Agent'] = random.choice(UserAgent_List)
     return Default_Header
-def getDefaultHeaderForDownload():
+def getDefaultHeaderForDownload(url):
     Default_Header['User-Agent'] = random.choice(UserAgent_List)
-    Default_Header['Referer'] = 'www.meizitu.com'
+    Default_Header['Referer'] = url
     return Default_Header
 
 

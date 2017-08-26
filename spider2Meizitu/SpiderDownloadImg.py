@@ -45,7 +45,7 @@ class SpiderDownloadImg(SpiderBasePage):
         print("[DownloadImg]downlaod image:%s" % imgUrl)
         try:
             # Default_Header['User-Agent'] = UserAgent_List[random.choice]random.choice(UserAgent_List),
-            response = requests.get(imgUrl, headers=Constants.getDefaultHeaderForDownload())
+            response = requests.get(imgUrl, headers=Constants.getDefaultHeaderForDownload(imgUrl))
         except requests.exceptions.ConnectionError:
             print('【错误】当前图片无法下载' + imgUrl)
             self.changeDetailState(imgUrl, Constants.STATUS_FAILURE)
