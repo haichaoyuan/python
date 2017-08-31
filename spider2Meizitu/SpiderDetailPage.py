@@ -27,6 +27,8 @@ class SpiderDetailPage(SpiderBasePage):
             if len(threads) == 0:  # 线程处理完，再起线程
                 print('[DetailSpider]线程处理完，再起线程')
                 for v in range(Constants.THREAD_NUM):
+                    if len(self.data) > 0:
+                        continue
                     url = self.data.pop()
                     if len(url[0]) <= 0:
                         continue

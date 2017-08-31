@@ -10,7 +10,6 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-# sys.path.append(os.path.join(os.path.dirname(__file__), 'E:\\python\\spiderMeizitu\\'))
 from spider2Meizitu.SpiderMainPage import SpiderMainPage
 from spider2Meizitu.SpiderDetailPage import SpiderDetailPage
 from spider2Meizitu.SpiderDownloadImg import SpiderDownloadImg
@@ -39,7 +38,6 @@ class SpiderMeizitu:
                 continue
                 p = multiprocessing.Process(target=self.spiderMainPage.spiderMainByThreads)
             elif i == 1:
-                continue
                 p = multiprocessing.Process(target=self.spiderDetailPage.spiderDetailByThreads())
             else:
                 p = multiprocessing.Process(target=self.spiderDownloadImg.downloadImgsByThreads())

@@ -84,6 +84,7 @@ class SpiderBasePage():
         # 关闭Connection:
         self.conn.close()
 
+
     def fetDetailDataFromDb(self):  # 数据库查询db
         conn = sqlite3.connect(Constants.DB_PATH)
         # 创建一个Cursor:
